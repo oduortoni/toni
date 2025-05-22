@@ -1,3 +1,5 @@
+# Laravel specific
+
 /.phpunit.cache
 /node_modules
 /public/build
@@ -21,3 +23,92 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+/vendor/
+/node_modules/
+/public/hot
+/public/storage
+/public/build
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+.env
+.env.*
+!.env.example
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+/_ide_helper.php
+/_ide_helper_models.php
+.phpstorm.meta.php
+
+# Frontend specific
+/public/js/
+/public/css/
+/public/mix-manifest.json
+/public/dist/
+.DS_Store
+*.log
+*.hot-update.js
+*.hot-update.json
+
+# SQLite
+*.sqlite
+*.sqlite-journal
+
+# Testing
+/coverage/
+.phpunit.cache/
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Build and dependency directories
+/dist/
+/.pnp
+.pnp.js
+
+# Cache and temporary files
+.cache/
+*.tmp
+*.temp
+*.bak
+
+# Environment and configuration
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# Editor directories and files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Optional: Keep these VSCode files for team consistency
+# Remove the previous 4 lines if you don't want to share VSCode settings 
