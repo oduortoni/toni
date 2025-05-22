@@ -88,3 +88,5 @@ debug.log
 
 # Optional: Keep these VSCode files for team consistency
 # Remove the previous 4 lines if you don't want to share VSCode settings 
+
+/docs/
